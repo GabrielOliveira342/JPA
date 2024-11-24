@@ -6,13 +6,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Produto {
+public class Produto { //class Produto 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
-	private String nome;
-	private Double preco;
+	private Long id; //varivel id 
+	private String nome; //variavel nome
+	private Double preco; // variavel preço 
 	
+	//setters e getters de cada variavel 
 	public Long getId() {
 		return id;
 	}
